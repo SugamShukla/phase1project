@@ -1,0 +1,20 @@
+package p;
+
+import java.util.Scanner;
+
+public class PhaseOneProjectMain {
+
+	public static void main(String[] args) {
+		System.out.println("WELCOME ");
+		System.out.println("Choose an option to perform");
+		System.out.println("1.Retrieve the file names in an ascending order\n2.Business-level operations:\n3.close the application\n");
+		System.out.println("Enter your choice:");
+		Scanner sc=new Scanner(System.in);
+		int ch=sc.nextInt();
+		switch(ch) {
+		case 1: 
+		}
+
+	}
+
+}
